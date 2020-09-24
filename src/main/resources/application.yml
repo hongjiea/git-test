@@ -1,0 +1,14 @@
+#  vue use 8080
+server:
+  port: 8081
+# mysql
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zhongshan?serverTimezone=UTC
+
+    username: root
+    password: 11111111
+# mybatis
+mybatis:
+  type-aliases-package: com.example.orgmanager.entity
